@@ -1,2 +1,2 @@
 # Tripito-App.github.io
-hello
+Team name: Tripito
