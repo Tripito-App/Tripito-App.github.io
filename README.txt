@@ -1,5 +1,6 @@
 # Tripito-App.github.io
 Team name: Tripito
+Product name: Tripito
 Team Members: Justin Bushfield (300188318), Charbel Habchi (300166056), Ghita Dounia (300188549), Gabriel Koscielniak(300170166), Eshaan Kunchur (300176301), Assia Rguib (300200871).
 
 Description:
