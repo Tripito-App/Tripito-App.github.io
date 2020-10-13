@@ -13,5 +13,24 @@
 
 #imagelinks a{
     font-size: 20px;
-    color: BLACK;
+    color: BLUE;
+    text-decoration: none;
+
+}
+#imagelinks a:hover{
+    font-size: 32px;
+    color: BLUE;
+    text-decoration: none;
+
+}
+#imagelinks a:visited{
+    font-size: 20px;
+    color: BLUE;
+    text-decoration: none;
+
+}
+#imagelinks a:link{
+    font-size: 20px;
+    color: BLUE;
+    text-decoration: none;
 }
