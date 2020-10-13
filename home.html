@@ -1,23 +1,62 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE = html>
 <html>
+    <head>
+        <title>Tripito</title>
+        <meta charset="utf-8">
+        <!--
+            The following blocks set up the links to Bootstrap framework because I really dont want
+        to handwrite all that CSS... I can explain it if it's required to get a grade or if anyone is curious.
+        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-<head>
-    <link rel="stylesheet" href="home-style.css">
-    <meta charset="utf-8" />
-    <title>Tripito</title>
-</head>
-<body>
-    <h1 class = "tripito">Tripito</h1>
-    <ul class = "menu">
-        <li class = "home"><a href="home.html">HOME</a></li>
-        <li class = "about"><a href="about.html">ABOUT</a></li>
-        <li class = "contact"><a href="contact.html">CONTACT</a></li>
-        <li class = "team"><a href="team.html">TEAM</a></li>
-    </ul>
-    <div class = "spans">
-        <span><p>a</p></span>
-        <span><p>b</p></span>
-        <span><p>c</p></span>
-    </div>
-</body>
+        <!-- link to Google fonts API -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+        <!-- link to external style sheet -->
+        <link rel="stylesheet" href="home-style.css">
+    </head>
+    <body>
+        <!-- navbar setup. -->
+        <nav class = "navbar navbar-inverse">
+            <div class = "container-fluid">
+                <ul class="nav navbar-nav">
+                    <li id = "tripito">Tripito      </li>
+                    <li><a href="#">Product     </a></li>
+                    <li><a href="#">Team        </a></li>
+                    <li><a href="#">About       </a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Header setup -->
+        <div class = "container-fluid">
+            <div class = "jumbotron">
+                <h1 style = "font-size: 40px; text-align: center; color: orange"><strong>Tripito</strong></h1>
+            </div>
+        </div>
+
+        <!-- 3 images/links
+            step 1 image and link seperate cause it's 2am and i just wanna be done
+            step 2 combine and make image a button link but im tired and yeah
+        -->
+        <div class="container text-center">
+            <div class="row" id = "imagelinks">
+                <div class="col-sm-4">
+                  <img src="img01.png" class="img-responsive" style="width:100%" alt="Product">
+                  <p><a href="product.html">Product</a></p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="img02.png" class="img-responsive" style="width:100%" alt="Team">
+                  <p><a href="product.html">Team</a></p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="img03.png" class="img-responsive" style="width:100%" alt="About">
+                  <p><a href="product.html">About</a></p>
+                </div>
+              </div>
+            </div><br>
+    </body>
 </html>
