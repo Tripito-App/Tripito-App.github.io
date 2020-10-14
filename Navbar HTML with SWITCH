@@ -1,0 +1,39 @@
+<!-----NavigationBar----->
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img src="logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" id="a0" href="homepage.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="a1" href="features.html">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="a2" href="Subscription_Page.htm">PRICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="a3" href="team.html">TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="a4" href="contact.html">CONTACT</a>
+          </li>
+
+          <li class="nav-item">
+            <!--Dark Mode Switch-->
+            <a class="nav-link" id="a4" href="#">
+              <div class="switch-box">
+                <div class="toggle-container">
+                  <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+                </div>
+              </div>
+            </li>
+            </a>
+        </ul>
+      </div>
+    </nav>
+  </section>
