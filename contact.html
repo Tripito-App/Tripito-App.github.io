@@ -1,16 +1,99 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE = html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1894.5">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-  </style>
-</head>
-<body>
-<p class="p1">&lt;html&gt;&lt;/html&gt;</p>
-</body>
+    <head>
+        <title>Tripito</title>
+        <meta charset="utf-8">
+        <!--
+            The following blocks set up the links to Bootstrap framework because I really dont want
+        to handwrite all that CSS... I can explain it if it's required to get a grade or if anyone is curious.
+        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <!-- link to Google fonts API -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+        <!-- link to external style sheet -->
+        <link rel="stylesheet" href="home-style.css">
+    </head>
+    <body>
+        <!-- navbar setup. -->
+        <section id="nav-bar">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" id="a0" href="homepage.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="a1" href="features.html">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="a2" href="Subscription_Page.htm">PRICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="a3" href="team.html">TEAM</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="a4" href="contact.html">CONTACT</a>
+                </li>
+
+                <li class="nav-item">
+                  <!--Dark Mode Switch-->
+                  <a class="nav-link" id="a4" href="#">
+                    <div class="switch-box">
+                      <div class="toggle-container">
+                        <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+                      </div>
+                    </div>
+                  </li>
+                  </a>
+              </ul>
+            </div>
+          </nav>
+        </section>
+
+        <!-- Header setup -->
+        <div class = "container-fluid">
+            <div class = "jumbotron">
+                <h1 style = "font-size: 40px; text-align: center; color: orange"><strong>Welcome to Tripito</strong></h1>
+            </div>
+        </div>
+
+        <!--
+            3 images/links
+            step 1 image and link seperate cause it's 2am and i just wanna be done
+            step 2 combine and make image a button link but im tired and yeah
+        -->
+        <div class="container text-center" style = "margin-top:100px">
+            <div class="row" id = "imagelinks">
+                <div class="col-sm-4">
+                    <img src="img01.png" class="img-responsive" style="width:100%" alt="Product">
+                    <h3><a href="product.html">Product</a></h3>
+                    <p>Learn more about the travel-planning sensation</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img02.png" class="img-responsive" style="width:100%" alt="Team">
+                    <h3><a href="team.html">Team</a></h3>
+                    <p>Meet the group that brings you Tripito</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img03.png" class="img-responsive" style="width:100%" alt="About">
+                    <h3><a href="about.html">About</a></h3>
+                    <p>This is a throwaway tagline cause I forget the third part</p>
+                </div>
+            </div>
+        </div><br>
+
+        <!-- Description block with placeholder text from the github -->
+        <div class = "container-fluid">
+            <p style = "margin:auto;padding-top: 50px;width:50%;text-align: center">Tripito is the all-in-one platform where users can plan their holiday using the many reviews/recommendations offered by other travellers. Tripito offers a wide range of features and services such as live feedback from around the world, local message board and chatting services, hotel bookings, and exchanges.  Don’t miss out on local gems! Tripito ensures you are truly immersed in your destination’s way of life. It is the ultimate holiday planning app, allowing you to make acquaintances before your travel! </p>
+        </div>
+    </body>
 </html>
