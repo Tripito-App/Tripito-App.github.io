@@ -63,7 +63,7 @@ html[data-theme='dark']
 {
   --bg: linear-gradient(180deg, rgba(11,12,16,1) 2%, rgba(15,17,22,1) 19%, rgba(17,20,26,1) 26%, rgba(20,25,33,1) 31%, rgba(21,27,35,1) 35%, rgba(23,29,38,1) 40%, rgba(24,30,39,1) 43%, rgba(26,33,42,1) 48%, rgba(28,35,45,1) 52%, rgba(28,36,46,1) 55%, rgba(29,37,48,1) 59%, rgba(30,39,50,1) 63%, rgba(31,40,51,1) 67%, rgba(31,40,51,1) 70%, rgba(31,40,51,1) 73%, rgba(31,40,51,1) 80%);
   --start: #66FCF1;
-  --color-headings: #3694FF;
+  --color-headings: #D3E3FC;
   --color-text: #B5B5B5;
 }
 
@@ -128,7 +128,7 @@ html.transition *:after {
     font-family: Monaco,Consolas,Lucida Console,monospace;
     font-size: 15px;
     font-weight: lighter;
-    color: #747fe0;
+    color: #FFCCBC;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
