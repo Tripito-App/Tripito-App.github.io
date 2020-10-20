@@ -1,3 +1,27 @@
+#comments{
+    width: 100%;
+    height: 250px
+}
+.responselabels{
+    color: #3694FF;
+    font-weight: bold;
+
+}
+.spacer{
+    height: 100px;
+    background-color: #D3E3FC;
+}
+.responselabels input[type = checkbox]{
+    width: 10px;
+    height: 10px;
+    border-radius: 25%;
+    visibility: visible;
+
+
+}
+#main{
+    background-color: #D3E3FC;
+}
 {
   scroll-behavior: smooth;
   --bg: linear-gradient(180deg, rgba(116,127,224,1) 2%, rgba(194,203,243,1) 17%, rgba(240,248,255,1) 37%);
@@ -13,13 +37,7 @@ html[data-theme='dark']
   --color-headings: #3694FF;
   --color-text: #B5B5B5;
 }
-#sendbutton{
-    border-style: solid;
-    border-radius: 25px;
-    border-color: BLUE;
-    border-width: 3px;
 
-}
 #nav-bar
 {
     position: sticky;
@@ -64,7 +82,7 @@ html[data-theme='dark']
 
 }
 
-input[type=checkbox] {
+#nav-bar input[type=checkbox] {
   height: 0;
   width: 0;
   visibility: hidden;
