@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link href="features.css" rel="stylesheet" type="text/css" />
+    <link href="Subscription_Page.css" rel="stylesheet" type="text/css" />
+    <link href="footer.css" rel="stylesheet" type="text/css" />
+    <title>Pricing</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    </script>
+
+<style>    
+  .collapsible {
+    background-color: #ffcbbb;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 35px;
+    position: relative;
+    left: 25%;
+  }
+
+  .collapsible2 {
+    background-color: #d3e3fc;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 35px;
+    position: relative;
+    left: 25%;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #FF7C51;
+  }
+
+  .active2, .collapsible2:hover {
+    background-color: #70A5F5;
+  }
+
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .collapsible2:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+   .active2:after {
+    content: "\2212";
+  }
+
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #e1e1e1;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 25%;
+  }
+  
+  .signup {
+  background-color: #008c7a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+
+  .txt{
+    font-size: 18px;
+  }
+  </style>
+  </head>
+</head>
+
+<body>
+     <!-----NavigationBar----->
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img src="Images/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" id="a0" href="homepage.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="a1" href="features.html">FEATURES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="a2" href="Subscription_Page.htm">PRICING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="a3" href="team.html">TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="a4" href="contactpage.html">CONTACT</a>
+          </li>
+
+          <li class="nav-item">
+            <!--Dark Mode Switch-->
+            <a class="nav-link" id="a4" href="#">
+              <div class="switch-box">
+                <div class="toggle-container">
+                  <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+                </div>
+              </div>
+            </li>
+            </a>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <h1 style="text-align:center"><span style="color: #77A6F7;">Tripito Subscription Plans</h1>
+
+  <button class="collapsible">The Wanderer's membership<br style="font-size: 30;"/>Free</button>
+  <div class="content">
+    <p class="txt">Access to the platform.</p>
+    <p class="txt">Monthly travel giveaways.</p>
+    <p class="txt"><del>Access to the Tripito weekly newsletter</del></p>
+    <p class="txt"><del>Complimentary access to monthly VIP events around the world.</del></p>
+    <p class="txt"><del>Access to VIP program for savings at restaurants and hotels.</del></p>
+    <p class="txt"><del>One monthly discount code.</del></p>
+    <button class="signup">Sign up</button>
+  </div>
+
+  <button class="collapsible2">The Travellers's membership<br style="font-size: 30;"/>8.99$ monthly</button>
+  <div class="content">
+    <p class="txt">Access to the platform.</p>
+    <p class="txt">Monthly travel giveaways.</p>
+    <p class="txt">Access to the Tripito weekly newsletter</p>
+    <p class="txt">Complimentary access to monthly VIP events around the world.<p>
+    <p class="txt"><del>Access to VIP program for savings at restaurants and hotels.</del></p>
+    <p class="txt"><del>One monthly discount code.</del></p>
+    <button class="signup">Sign up</button>
+  </div>
+  
+  <button class="collapsible">The Globetrotter's membership<br style="font-size: 30;"/>14.99$ monthly</button>
+  <div class="content">
+    <p class="txt">Access to the platform.</p>
+    <p class="txt">Monthly travel giveaways.</p>
+    <p class="txt">Access to the Tripito weekly newsletter</p>
+    <p class="txt">Complimentary access to monthly VIP events around the world.</p>
+    <p class="txt">Access to VIP program for savings at restaurants and hotels.</p>
+    <p class="txt">One monthly discount code.</p>
+    <button class="signup">Sign up</button>
+  </div>
+
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+    } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible2");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active2");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+    } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+<html>
+
+
+
+<!-- Site footer -->
+    <footer class="footerw">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify"> <i>Tripito is the all-in-one platform where users can plan their holiday using the many reviews/recommendations offered by other travellers. Tripito offers a wide range of features and services such as live feedback from around the world, local message board and chatting services, hotel bookings, and exchanges.  Don’t miss out on local gems! Tripito ensures you are truly immersed in your destination’s way of life. It is the ultimate holiday planning app, allowing you to make acquaintances before your travel!</i> </p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>App links</h6>
+              <p><img src="https://miro.medium.com/max/8982/1*V9-OPWpauGEi-JMp05RC_A.png" alt="" width="147" height="51" /></p>
+              <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/640px-Google_Play_Store_badge_EN.svg.png" alt="" width="149" height="44" /></p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footerw-links">
+              <li><a href="https://tripito-app.github.io/features.html">Features</a></li>
+              <li><a href="https://tripito-app.github.io/Subscription_Page.htm">Pricing</a></li>
+              <li><a href="https://tripito-app.github.io/team.html">Team</a></li>
+              <li><a href="google.com">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright">Copyright © 2020 All Rights Reserved by Tripito.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+              <p>&nbsp;<img src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-icon-file-facebook-icon-svg-wikimedia-commons-4.png" alt="" width="43" height="43" />&nbsp;&nbsp;<img style="float: left;" src="https://i.pinimg.com/originals/a2/5f/4f/a25f4f58938bbe61357ebca42d23866f.png" alt="" width="47" height="47" /><img src="https://i.pinimg.com/originals/28/90/ba/2890bac9ba41e52707f36268231dfe9e.png" alt="" width="45" height="45" /></p>
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
