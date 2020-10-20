@@ -13,6 +13,6 @@ function sendEmail() {
             document.getElementById("T").value,
     })
     .then(function (message) {
-        alert("mail sent successfully")
+        alert("Mail sent successfully!")
     });
 }
