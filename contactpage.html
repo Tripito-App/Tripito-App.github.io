@@ -10,6 +10,9 @@
         <link href="universal.css" rel="stylesheet" type="text/css" />
         <link href="darkmodeswitch.css" rel="stylesheet" type="text/css" />
 
+        <!-- Tripito JS -->
+        <script src="contactpage.js"></script>
+
         <!-- Bootstrap Framework CDN -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -23,6 +26,9 @@
         </script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
         </script>
+        <!-- Email JS Lib -->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+
     </head>
     <body>
         <!-- NAvigation Bar -->
@@ -76,7 +82,7 @@
             </div>
             <div class = "row">
                 <div class = "col-sm-3">
-                    <h4> Want to ask us a question?</h4><h4> Want to let us know what you think?</h4><h4> Spot a bug in the system?</h4><h4> Let us know! </h4>
+                    <h4> Want to ask us a question?</h4></br><h4> Want to let us know what you think?</h4></br><h4> Spot a bug in the system?</h4></br><h4> Let us know! </h4>
                     <p>
                         We want to know what you think! The best way for us to get better at what we do best is through your feedback.
                         Just fill out the form, and be sure to let us know what you want to tell us about using the Subject checkboxes!
@@ -97,14 +103,15 @@
                             <input type = "text" class = "form-control" id = "email">
                             </br>
                             <label style = "width:100%; padding-left:auto; text-align:center" class = "responselabels"> Subject </label>
-                            <label class="checkbox-inline "><input type="checkbox" value="fdback" class = "responselabels">  Feedback</label>
-                            <label class="checkbox-inline " style = "padding-left: 50px"><input type="checkbox" value="quesiton" class = "responselabels">  Questions</label>
-                            <label class="checkbox-inline " style = "padding-left: 50px"><input type="checkbox" value="bugs" class = "responselabels">  Typos and other mix-ups</label>
+                            <label class="checkbox-inline "><input type="checkbox" value="Feedback" class = "responselabels" id = "F">  Feedback</label>
+                            <label class="checkbox-inline " style = "padding-left: 50px"><input type="checkbox" value="Question" class = "responselabels" id = "Q">  Questions</label>
+                            <label class="checkbox-inline " style = "padding-left: 50px"><input type="checkbox" value="Typos" class = "responselabels" id = "T">  Typos and other mix-ups</label>
                             </br>
                             </br>
-                            <label for = "comment" style = "width:100%; padding-left:auto; text-align:center" class = "responselabels"> Comments </label>
+                            <label for = "comment" style = "width:100%; padding-left:auto; text-align:center" class = "responselabels" id = "C"> Comments </label>
                             <input type = "text" class = "form-control" id = "comments">
-
+                            </br>
+                            <input type = "button" id = 'sendbutton' value = "Send Email" onclick = "sendEmail()"/>
                         </div>
                     </form>
                 </div>
