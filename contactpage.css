@@ -11,6 +11,14 @@
     height: 100px;
     background-color: #D3E3FC;
 }
+.responselabels input[type = checkbox]{
+    width: 10px;
+    height: 10px;
+    border-radius: 25%;
+    visibility: visible;
+
+
+}
 #main{
     background-color: #D3E3FC;
 }
@@ -29,13 +37,7 @@ html[data-theme='dark']
   --color-headings: #3694FF;
   --color-text: #B5B5B5;
 }
-#sendbutton{
-    border-style: solid;
-    border-radius: 25px;
-    border-color: BLUE;
-    border-width: 3px;
 
-}
 #nav-bar
 {
     position: sticky;
@@ -79,12 +81,8 @@ html[data-theme='dark']
 .switch-box{
 
 }
-.form-group input[type=checkbox]{
-    height:5px;
-    width:5px;
-    visibility: visible;
-}
-input[type=checkbox] {
+
+#nav-bar input[type=checkbox] {
   height: 0;
   width: 0;
   visibility: hidden;
