@@ -1,7 +1,7 @@
 *
 .footerw
 {
-  background-color:var(--bg);
+  background-color:var(--bga);
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -62,6 +62,7 @@
 /*DARK MODE*/
 html{
     scroll-behavior: smooth;
+    --bga:#77A6F7;
     --bg:#D3E3FC;
     --navbar:rgba(0, 0, 0, 0);
     --heading-color:#54575a;
