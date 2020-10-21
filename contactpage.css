@@ -1,7 +1,37 @@
+
+/*Dark Mode Variables DO NOT MOVE OR USE UNIVERSAL.CSS*/
+html{
+    scroll-behavior: smooth;
+    --bg:#D3E3FC;
+    --navbar:rgba(0, 0, 0, 0);
+    --heading-color:#54575a;
+    --text-color:black;
+    --main-color: #FFCCBC;
+    --button-color:#00887A;
+}
+
+html[data-theme='dark'] {
+    --bg:#121212;
+    --navbar:#121212;
+    --heading-color:#ACDBDF;
+    --text-color:#F0ECE2;
+    --main-color: #121212;
+    --button-color:#54575a;
+}
+
+
+#nav-bar{
+  background:var(--navbar);
+}
+
+
+
+
+
 #main{
     font-family: 'Commissioner', sans-serif;
-    background-color: #D3E3FC;
-    color: #00887A;
+    background: var(--bg);
+    color: var(--heading-color);
 }
 #main h1{
     margin-top:25px;
@@ -12,7 +42,7 @@
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #00887A;
+    background-color: var(--button-color);
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -25,7 +55,7 @@
     height: 250px
 }
 #main .responselabels{
-    color: #00887A;
+    color: var(--heading-color);
     font-weight: bold;
 }
 #main .spacer{
@@ -39,4 +69,12 @@
     width: 10px;
     height: 10px;
     visibility: visible;
+}
+
+.heading {
+  color:var(--heading-color);
+}
+
+#text {
+  color:var(--text-color);
 }
