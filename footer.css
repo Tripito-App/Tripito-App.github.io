@@ -73,6 +73,7 @@ html{
 
 html[data-theme='dark'] {
     --bg:#121212;
+    --bga: #121212;
     --navbar:#121212;
     --heading-color:#ACDBDF;
     --text-color:#F0ECE2;

@@ -1,6 +1,7 @@
 html{
     scroll-behavior: smooth;
-    --bg:#D3E3FC;
+    --bgb: white;
+    --bg: #D3E3FC;
     --navbar:rgba(0, 0, 0, 0);
     --heading-color:#54575a;
     --text-color:black;
@@ -11,6 +12,7 @@ html{
 
 html[data-theme='dark'] {
     --bg:#121212;
+    --bgb: #121212;
     --navbar:#121212;
     --heading-color:#ACDBDF;
     --text-color:#F0ECE2;
@@ -23,7 +25,7 @@ html[data-theme='dark'] {
 
 
 .main {
-  background:var(--bg);
+  background-color:var(--bgb);
 }
 
 body {
