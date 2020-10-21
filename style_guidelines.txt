@@ -9,7 +9,8 @@ Colours
 For Tripito, our flat colours show our consumers that we are professional. Our colours convey power yet in a peaceful manner; they do not outshine the content of the website.
 
 These are our colour swatches:
-- #00887A
+Default || Augmented (for button clicks and such)
+- #00887A || #02776c
 - #FFCCBC
 - #FFFFFF
 - #D3E3FC
