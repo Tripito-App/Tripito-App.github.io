@@ -31,7 +31,7 @@
 }
 
 #nav-bar input:checked + label {
-  background: var(--color-headings);
+  background: #0d7377;
 }
 
 #nav-bar input:checked + label:after {

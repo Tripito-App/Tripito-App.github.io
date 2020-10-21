@@ -8,6 +8,7 @@ html{
     --text-color:black;
     --main-color: #FFCCBC;
     --button-color:#00887A;
+    --spacer-color:linear-gradient(#D3E3FC,#77A6F7);
 }
 
 html[data-theme='dark'] {
@@ -16,7 +17,8 @@ html[data-theme='dark'] {
     --heading-color:#ACDBDF;
     --text-color:#F0ECE2;
     --main-color: #121212;
-    --button-color:#54575a;
+    --button-color:#ACDBDF;
+    --spacer-color:#121212;
 }
 
 
@@ -24,6 +26,17 @@ html[data-theme='dark'] {
   background:var(--navbar);
 }
 
+#nav-bar ul li a:hover
+{
+    color: var(--text-color)!important;
+}
+
+.nav-link
+{
+    color: var(--text-color)!important;
+    font-weight: 600;
+    font-size: 16px;
+}
 
 
 
@@ -63,7 +76,7 @@ html[data-theme='dark'] {
     width: 110%;
     margin-left: 0;
     padding-left: 0;
-    background-image: linear-gradient(#D3E3FC,#77A6F7);
+    background-image: var(--spacer-color);
 }
 #main input[type = checkbox]{
     width: 10px;

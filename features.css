@@ -101,7 +101,7 @@ label:after {
 }
 
 input:checked + label {
-  background: #F0ECE2;
+  background: #0d7377;
 }
 
 input:checked + label:after {
