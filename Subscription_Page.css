@@ -1,8 +1,8 @@
 /*Dark Mode Variables DO NOT MOVE OR USE UNIVERSAL.CSS*/
 html{
     scroll-behavior: smooth;
-    --bg:white;
-    --navbar:rgba(0, 0, 0, 0);
+    --bg:rgba(0, 0, 0, 0);
+    --navbar: white;
     --heading-color:#77A6F7;
     --text-color:black;
     --main-color: #FFCCBC;
