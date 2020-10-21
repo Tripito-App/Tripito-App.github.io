@@ -1,16 +1,28 @@
 #main{
     font-family: 'Commissioner', sans-serif;
     background-color: #D3E3FC;
+    color: #00887A;
 }
 #main h1{
     margin-top:25px;
+}
+#sendbutton{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #00887A;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
 }
 #comments{
     width: 100%;
     height: 250px
 }
 .responselabels{
-    color: #3694FF;
+    color: #00887A;
     font-weight: bold;
 }
 .spacer{
