@@ -35,7 +35,7 @@
     padding-left: 0;
     background-image: linear-gradient(#D3E3FC,#77A6F7);
 }
-input[type = checkbox]{
+#main input[type = checkbox]{
     width: 10px;
     height: 10px;
     visibility: visible;
