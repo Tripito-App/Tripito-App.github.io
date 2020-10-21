@@ -24,11 +24,11 @@
     width: 100%;
     height: 250px
 }
-.responselabels{
+#main .responselabels{
     color: #00887A;
     font-weight: bold;
 }
-.spacer{
+#main .spacer{
     height: 100px;
     width: 110%;
     margin-left: 0;
