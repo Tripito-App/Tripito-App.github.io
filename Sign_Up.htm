@@ -12,6 +12,7 @@
     <link href="features.css" rel="stylesheet" type="text/css" />
     <link href="Subscription_Page.css" rel="stylesheet" type="text/css" />
     <link href="footer.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="Sign_up.css">
     <title>Sign up to Tripito</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,97 +23,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
     </script>
 
-<style>    
-  .collapsible {
-    background-color: #ffcbbb;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 50%;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-size: 35px;
-    position: relative;
-    left: 25%;
-  }
 
-  .collapsible2 {
-    background-color: #d3e3fc;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 50%;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-size: 35px;
-    position: relative;
-    left: 25%;
-  }
-
-  .active, .collapsible:hover {
-    background-color: #FF7C51;
-  }
-
-  .active2, .collapsible2:hover {
-    background-color: #70A5F5;
-  }
-
-  .collapsible:after {
-    content: '\002B';
-    color: white;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-  }
-
-  .collapsible2:after {
-    content: '\002B';
-    color: white;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-  }
-
-  .active:after {
-    content: "\2212";
-  }
-   .active2:after {
-    content: "\2212";
-  }
-
-  .content {
-    padding: 0 18px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    background-color: #e1e1e1;
-    text-align: center;
-    width: 50%;
-    position: relative;
-    left: 25%;
-  }
-  
-  .signup {
-  background-color: #008c7a;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  line-height: 1;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 4px 2px;
-  cursor: pointer;
-  }
-
-  .txt{
-    font-size: 18px;
-  }
-  </style>
   </head>
 </head>
 
@@ -159,39 +70,42 @@
 
   <h1 style="text-align:center"><span style="color: #77A6F7;">Tripito Subscription Plans</h1>
 
-  <button class="collapsible">The Wanderer's membership<br style="font-size: 30;"/>Free</button>
+  <button class="collapsible">Membership benefits</button>
   <div class="content">
     <p class="txt">Access to the platform.</p>
     <p class="txt">Monthly travel giveaways.</p>
-    <p class="txt"><del>Access to the Tripito weekly newsletter</del></p>
-    <p class="txt"><del>Complimentary access to monthly VIP events around the world.</del></p>
-    <p class="txt"><del>Access to VIP program for savings at restaurants and hotels.</del></p>
-    <p class="txt"><del>One monthly discount code.</del></p>
-    <button class="signup">Sign up</button>
+    <p class="txt2">Traveller's and Globetrotter's membership only</p>
+    <p class="txt">Complimentary access to a yearly international event.</p>
+    <p class="txt">Complimentary access to monthly VIP events around the world.</p>
+    <p class="txt2">Globetrotter's membership only</p>
+    <p class="txt">Access to VIP program for savings at restaurants and hotels.</p>
+    <p class="txt">One-time 10% off coupon.</p>
   </div>
 
-  <button class="collapsible2">The Travellers's membership<br style="font-size: 30;"/>8.99$ monthly</button>
+  <button class="collapsible2">Reviews</button>
   <div class="content">
-    <p class="txt">Access to the platform.</p>
-    <p class="txt">Monthly travel giveaways.</p>
-    <p class="txt">Access to the Tripito weekly newsletter</p>
-    <p class="txt">Complimentary access to monthly VIP events around the world.<p>
-    <p class="txt"><del>Access to VIP program for savings at restaurants and hotels.</del></p>
-    <p class="txt"><del>One monthly discount code.</del></p>
-    <button class="signup">Sign up</button>
+    <p class="txt2">Wanderer's membership reviews</p>
+    <p class="txt">Sign up and me the first to leave a review!</p>
+    <p class="txt2">Traveller's membership reviews</p>
+    <p class="txt">Sign up and me the first to leave a review!<p>
+      <p class="txt2">Globetrotter's membership reviews</p>
+    <p class="txt">Sign up and me the first to leave a review!</p>
   </div>
   
-  <button class="collapsible">The Globetrotter's membership<br style="font-size: 30;"/>14.99$ monthly</button>
-  <div class="content">
-    <p class="txt">Access to the platform.</p>
-    <p class="txt">Monthly travel giveaways.</p>
-    <p class="txt">Access to the Tripito weekly newsletter</p>
-    <p class="txt">Complimentary access to monthly VIP events around the world.</p>
-    <p class="txt">Access to VIP program for savings at restaurants and hotels.</p>
-    <p class="txt">One monthly discount code.</p>
-    <button class="signup">Sign up</button>
-  </div>
 
+  </div>
+  <div class="sign">
+    <h4>Name</h4>
+    <input type="text">
+    <h4>Surname</h4>
+    <input type="text">
+    <h4>email address</h4>
+    <input type="text">
+    <h4>password</h4>
+    <input type="password"><br><br>
+    <button class="button">proceed to payment</button>
+
+  </div>
   <script>
   var coll = document.getElementsByClassName("collapsible");
   var i;

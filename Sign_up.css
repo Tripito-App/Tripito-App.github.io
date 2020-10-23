@@ -1,0 +1,111 @@
+.collapsible {
+    background-color: #ffcbbb;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 35px;
+    position: relative;
+  }
+
+  .collapsible2 {
+    background-color: #d3e3fc;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 35px;
+    position: relative;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #FF7C51;
+  }
+
+  .active2, .collapsible2:hover {
+    background-color: #70A5F5;
+  }
+
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .collapsible2:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+   .active2:after {
+    content: "\2212";
+  }
+
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #e1e1e1;
+    text-align: center;
+    width: 50%;
+    position: relative;
+  }
+  
+  .signup {
+  background-color: #008c7a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+
+  .txt{
+    font-size: 18px;
+  }
+
+  .txt2{
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+  .sign{
+      float: right;
+      width: 35%;
+      position: absolute;
+      top:21%;
+      left: 65%;
+  }
+  
+
+
+  .button {
+    background-color: var(--button-color);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
