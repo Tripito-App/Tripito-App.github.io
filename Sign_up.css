@@ -1,3 +1,4 @@
+
 .collapsible {
     background-color: #ffcbbb;
     color: white;
@@ -7,7 +8,7 @@
     border: none;
     text-align: center;
     outline: none;
-    font-size: 35px;
+    font-size: 30px;
     position: relative;
   }
 
@@ -20,7 +21,7 @@
     border: none;
     text-align: center;
     outline: none;
-    font-size: 35px;
+    font-size: 30px;
     position: relative;
   }
 
@@ -92,10 +93,28 @@
 
   .sign{
       float: right;
-      width: 35%;
+      width: 30%;
       position: absolute;
       top:21%;
-      left: 65%;
+      left: 70%;
+  }
+
+  .check{
+      position: absolute;
+      width: 15%;
+      top:21%;
+      left:55%;
+  }
+
+  .sub{
+    position: absolute;
+    width: 15%;
+    top:22%;
+    left:53%;
+}
+
+  .filler{
+    position: relative;
   }
   
 
