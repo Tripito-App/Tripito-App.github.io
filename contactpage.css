@@ -72,8 +72,8 @@ html[data-theme='dark'] {
     font-weight: bold;
 }
 #main .spacer{
-    height: 100px;
-    width: 110%;
+    height: 105px;
+    width: 101%;
     margin-left: 0;
     padding-left: 0;
     background-image: var(--spacer-color);
