@@ -1,0 +1,87 @@
+#website_header{ 
+    color: #FFCCBC ;
+    font-size: x-large;
+    margin-top: 150px;
+    text-align: center; 
+    
+
+}
+.container{
+    width:100;
+    height: 100vh;
+    background-image:linear-gradient(rgba(157, 175, 255, 0.7),rgba(157,175,255,0.7));
+    background-position: center;
+    background-size: cover;
+   
+   }
+   img {
+	width: 250px;
+	height: 250px;
+   }
+
+    .feature {
+
+        text-align: center;
+        font-family: 'Commissioner', sans-serif;
+        font-weight: bold;
+        color:floralwhite  ;
+        text-align: center;
+    }
+    img {
+        width: 250px;
+        height: 250px;
+    }
+        
+        
+        
+    .feature1 {
+        text-align: center;
+        font-family: 'Commissioner', sans-serif;
+        font-weight: bold;
+        color: floralwhite;
+    }
+    img {
+        width: 250px;
+        height: 250px;
+    }
+        
+      
+      .feature2 {
+          text-align: center;
+        font-family: 'Commissioner', sans-serif;
+        font-weight:bold;
+        color: antiquewhite;
+        
+      }
+      
+      .feature3 {
+        text-align: center;
+        font-family: 'Commissioner', sans-serif;
+        font-weight:bold;
+        color:floralwhite);
+      }
+        
+      
+      .feature4 {
+        text-align: center;
+        font-family: 'Commissioner', sans-serif;
+        font-weight:bold;
+        color:rgba(157, 175, 255, 0.7) ;
+      }
+        
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
