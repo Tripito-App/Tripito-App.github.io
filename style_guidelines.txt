@@ -18,11 +18,11 @@ Default || Augmented (for button clicks and such)
 
 Iconography
 ===========
-Our website will have flat iconography.
+Our website will have flat iconography. It will be colourful.
 
 Typography
 ==========
-We will be using Commissioner from Google Fonts.
+We will be using Commissioner from Google Fonts for the body text and the default font for titles, navigation bar, and footer.
 
 Links
 =====
@@ -30,4 +30,4 @@ Links will be underlined and will change to a darker colour when hovered over.
 
 Buttons
 =======
-Buttons will be also be flat and will incorporate the website colours. They will mostly be green.
+Buttons will be also be flat and will incorporate the website colours. They will have a green background and white text.
