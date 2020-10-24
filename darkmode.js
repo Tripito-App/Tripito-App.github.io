@@ -6,6 +6,7 @@ const currentTheme = localStorage.getItem("data-theme");
 if (currentTheme == "dark") {
   document.documentElement.setAttribute('data-theme', 'dark')
   checkbox.checked = true;
+  $('#thumbnail-view img').attr('darkPlane.png', 'lightPlane.png');
 
 
 } else if (currentTheme == "light") {
