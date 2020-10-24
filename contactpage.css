@@ -19,6 +19,7 @@ html[data-theme='dark'] {
     --main-color: #121212;
     --button-color:#496149;
     --spacer-color:#121212;
+    --headingbb-color: #ACDBDF;
 }
 
 
@@ -34,20 +35,19 @@ html[data-theme='dark'] {
 .nav-link
 {
     color: var(--text-color)!important;
-    font-weight: 600;
-    font-size: 16px;
 }
 
 
 
 
 #main{
-    font-family: 'Commissioner', sans-serif;
+    font-family: Commissioner, sans-serif;
     background: var(--bg);
     color: var(--heading-color);
 }
 #main h1{
     margin-top:25px;
+    font-family: Commissioner, sans-serif;
 }
 #sendbutton{
     border: none;
