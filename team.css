@@ -80,9 +80,8 @@ body {
     cursor: pointer;
     width: 100%;
   }
-
-  .buttonss:hover {
-    background-color: var(--bg);
+  .buttonss:active {
+    background-color: #02776c;
   }
 
   /*DARK MODE SWITCH*/
