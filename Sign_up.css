@@ -1,15 +1,20 @@
 
+.body{
+  background-image: url(https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80/a23.jpg);
+}
+
 .collapsible {
     background-color: #ffcbbb;
     color: white;
     cursor: pointer;
     padding: 18px;
-    width: 50%;
+    width: 45%;
     border: none;
     text-align: center;
     outline: none;
     font-size: 30px;
     position: relative;
+    left: 5%;
   }
 
   .collapsible2 {
@@ -17,12 +22,13 @@
     color: white;
     cursor: pointer;
     padding: 18px;
-    width: 50%;
+    width: 45%;
     border: none;
     text-align: center;
     outline: none;
     font-size: 30px;
     position: relative;
+    left: 5%;
   }
 
   .active, .collapsible:hover {
@@ -63,8 +69,9 @@
     transition: max-height 0.2s ease-out;
     background-color: #e1e1e1;
     text-align: center;
-    width: 50%;
+    width: 45%;
     position: relative;
+    left: 5%;
   }
   
   .signup {
@@ -119,13 +126,20 @@
     position: relative;
   }
   
+  .box{
+    position: absolute;
+    background-color: #e1e1e1;
+    width: 29%;
+    left: 52%;
+    top: 20%;
+  }
 
 
   .button {
     background-color: var(--button-color);
     border: none;
     color: white;
-    padding: 10px 25px;
+    padding: 10px 11px;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
