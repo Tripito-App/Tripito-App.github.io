@@ -8,7 +8,6 @@ html{
     --text-color:black;
     --main-color: #FFCCBC;
     --button-color:#00887A;
-    --spacer-color:linear-gradient(#D3E3FC,#77A6F7);
 }
 
 html[data-theme='dark'] {
