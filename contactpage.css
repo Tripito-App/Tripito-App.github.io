@@ -8,7 +8,7 @@ html{
     --text-color:black;
     --main-color: #FFCCBC;
     --button-color:#00887A;
-    --heading3-color:black;
+    --heading3-color:#54575a;
 }
 
 html[data-theme='dark'] {

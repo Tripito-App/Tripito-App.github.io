@@ -15,7 +15,7 @@ html{
     --grey-color:#eee;
     --border:#d9e4dd;
     --grey-text-color: black;
-    --heading33-color:black;
+    --heading33-color: #54575a;
 }
 
 html[data-theme='dark'] {

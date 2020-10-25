@@ -3,12 +3,12 @@ html{
     --bgb: white;
     --bg: #D3E3FC;
     --navbar:rgba(0, 0, 0, 0);
-    --heading-color: black;
+    --heading-color: #54575a;
     --text-color:black;
     --main-color: #FFCCBC;
     --button-color:#00887A;
     --cards-color:white;
-    --headingbb-color:black;
+    --headingbb-color:#54575a;
 }
 
 html[data-theme='dark'] {
@@ -24,7 +24,9 @@ html[data-theme='dark'] {
 }
 
 
-
+#titlep {
+  color: var(--headingbb-color);
+}
 
 .main {
   background-color:var(--bgb);
