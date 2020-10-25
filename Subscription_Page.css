@@ -46,7 +46,7 @@ html[data-theme='dark'] {
 #head{
   background: var(--back-color);
   color:var(--heading-color);
-  font-weight:bolder;
+  font-weight:600;
 }
 
 .columns {
