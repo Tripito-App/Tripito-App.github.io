@@ -171,7 +171,7 @@ html.transition *:after {
   margin:auto;
   margin-top:10%;
   font-size: 4rem;
-  font-weight: 500;
+  font-weight: bolder;
   color:var(--heading-color);
 }
 
@@ -180,7 +180,7 @@ html.transition *:after {
   margin:auto;
   font-family: Commissioner, sans-serif;
   font-size:2.6rem;
-  font-weight:500;
+  font-weight:bold;
 }
 
 #descr {
@@ -210,7 +210,7 @@ html.transition *:after {
   color:var(--heading-color);
   font-family: 'Commissioner', sans-serif;
   font-size:2rem;
-  font-weight:400;
+  font-weight:bold;
   padding-bottom:1%;
 }
 
