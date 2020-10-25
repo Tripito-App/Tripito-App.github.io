@@ -23,12 +23,12 @@ html[data-theme='dark'] {
     --heading-color:#ACDBDF;
     --text-color:#F0ECE2;
     --main-color: #121212;
-    --button-color:#496149;
+    --button-color:#77A6F7;
     --column-color:#121212;
     --price-header:#263859;
     --back-color:#121212;
     --header-color:#145374;
-    --grey-color:#121212;
+    --grey-color:#eee;
     --border:#121212;
 }
 
@@ -43,6 +43,7 @@ html[data-theme='dark'] {
 #head{
   background: var(--back-color);
   color:var(--heading-color);
+  font-weight:bolder;
 }
 
 .columns {
@@ -99,6 +100,11 @@ html[data-theme='dark'] {
   text-align: center;
   text-decoration: none;
   font-size: 18px;
+}
+
+.button:hover {
+  text-decoration:none;
+  color:white;
 }
 
 @media only screen and (max-width: 600px) {

@@ -12,6 +12,7 @@ html{
     --text-color:black;
     --features-color: #FFCCBC;
     --featureswrapper-color:white;
+    --btn-color:#00887A;
 }
 
 html[data-theme='dark'] {
@@ -21,9 +22,8 @@ html[data-theme='dark'] {
     --text-color:#F0ECE2;
     --features-color: #121212;
     --featureswrapper-color:#121212;
+    --btn-color:#496149;
 }
-
-
 
 /*NAVBAR*/
 #nav-bar
@@ -125,46 +125,47 @@ html.transition *:after {
   display:flex;
   flex-direction:column;
   background: var(--bg);
-  height:87vh;
+  height:89vh;
 }
 
 #travelImg{
-  max-width:28%;
+  max-width:18%;
   height:auto;
   margin:auto;
 }
 
 #planImg{
-  max-width:95%;
+  max-width:80%;
   height:auto;
   border-radius:5px;
-  margin-top:15%;
+  margin-top:8%;
+  margin-left:5%;
 }
 
 #meetImg{
-  max-width:95%;
+  max-width:80%;
   height:auto;
-  margin-top:20%;
+  margin-top:8%;
   border-radius:5px;
-  margin-left:5%;
+  margin-left:10%;
 
 }
 
 #txtImg{
-  max-width:80%;
+  max-width:70%;
   height:auto;
-  margin-top:20%;
+  margin-top:8%;
   border-radius:5px;
   margin-left:15%;
 
 }
 
 #safeImg{
-  max-width:95%;
+  max-width:80%;
   height:auto;
-  margin-top:20%;
+  margin-top:8%;
   border-radius:5px;
-  margin-left:5%;
+  margin-left:10%;
 }
 
 #main-heading {
@@ -186,7 +187,7 @@ html.transition *:after {
 
 #descr {
   text-align:center;
-  font-size:18px;
+  font-size:20px;
   padding-top:2%;
   padding-left:20%;
   padding-right:20%;
@@ -242,9 +243,8 @@ html.transition *:after {
 }
 
 #f1Title {
-  padding-left:5%;
+  padding-left:10%;
 }
-
 
 .feature2 {
   display:flex;
@@ -253,7 +253,7 @@ html.transition *:after {
   font-weight:300;
   background:var(--main-color);
   font-size: 20px;
-  padding-top:15%;
+  padding-top:5%;
 }
 
 #f2a {
@@ -270,7 +270,7 @@ html.transition *:after {
 }
 
 #f3Title {
-  padding-left:5%;
+  padding-left:10%;
 }
 
 .feature3 {
@@ -280,7 +280,7 @@ html.transition *:after {
   font-weight:300;
   background:var(--main-color);
   font-size: 20px;
-  padding-top:15%;
+  padding-top:5%;
 }
 
 #f3a {
@@ -298,7 +298,7 @@ html.transition *:after {
   font-weight:300;
   background:var(--main-color);
   font-size: 20px;
-  padding-top:15%;
+  padding-top:5%;
   padding-bottom:8%;
 }
 
@@ -316,7 +316,56 @@ html.transition *:after {
 }
 
 .featureDescr {
-  font-size: 18px;
+  font-size: 20px;
   padding-top:0%;
   font-weight:200;
+}
+
+.featureList13 {
+  list-style-image: url('Images/check.png');
+  padding-left:13%;
+  padding-top:5%;
+  padding-right:9%;
+}
+
+.featureList24 {
+  list-style-image: url('Images/check.png');
+  padding-left:8%;
+  padding-top:5%;
+  padding-right:9%;
+}
+
+.featureLine {
+}
+
+.tryBtn13 {
+  background: var(--btn-color);
+  border: none;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left:40%;
+  margin-top:4%;
+}
+
+.tryBtn24 {
+  background: var(--btn-color);
+  border: none;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding:auto;
+  margin-left:40%;;
+  margin-top:4%;
+}
+
+.button {
+  color: white;
+}
+
+.button:hover {
+  text-decoration:none;
+  color:white;
 }

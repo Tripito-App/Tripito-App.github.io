@@ -145,6 +145,7 @@ body {
 
   .title {
     color: var(--heading-color);
+    font-weight:bolder;
   }
 
   .text {

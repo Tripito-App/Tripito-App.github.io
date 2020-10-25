@@ -7,14 +7,23 @@ Colours
 ========
 
 For Tripito, our flat colours show our consumers that we are professional. Our colours convey power yet in a peaceful manner; they do not outshine the content of the website.
-
 These are our colour swatches:
+
+Light Mode:
 Default || Augmented (for button clicks and such)
 - #00887A || #02776c
-- #FFCCBC
-- #FFFFFF
-- #D3E3FC
-- #77A6F7
+- background: #D3E3FC
+- navbar: rgba(0, 0, 0, 0)
+- heading-color: #54575a
+- text-color: black
+- sub-color: #FFCCBC
+
+Dark Mode:
+- background: #121212
+- navbar: #121212
+- heading-color: #ACDBDF
+- text-color: #F0ECE2
+- sub-color: #121212
 
 Iconography
 ===========
