@@ -15,6 +15,7 @@
 {
     height: 77px;
     padding-left: 47px;
+    
 }
 .navbar-nav li
 {
@@ -80,6 +81,7 @@ html[data-theme='dark'] {
     --featureswrapper-color:#121212;
     --headingbb-color: #ACDBDF;
 }
+
 
 /*DARK MODE SWITCH*/
 .switch-box{
