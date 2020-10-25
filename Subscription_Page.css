@@ -15,6 +15,7 @@ html{
     --grey-color:#eee;
     --border:#d9e4dd;
     --grey-text-color: black;
+    --heading33-color:black;
 }
 
 html[data-theme='dark'] {
@@ -33,6 +34,7 @@ html[data-theme='dark'] {
     --border:#121212;
     --grey-text-color: white;
     --headingbb-color: #ACDBDF;
+    --heading33-color: #ACDBDF;
 }
 
 
@@ -45,7 +47,7 @@ html[data-theme='dark'] {
 }
 #head{
   background: var(--back-color);
-  color:var(--heading-color);
+  color:var(--heading33-color);
   font-weight:600;
 }
 

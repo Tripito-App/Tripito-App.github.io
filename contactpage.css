@@ -8,6 +8,7 @@ html{
     --text-color:black;
     --main-color: #FFCCBC;
     --button-color:#00887A;
+    --heading3-color:black;
 }
 
 html[data-theme='dark'] {
@@ -19,6 +20,7 @@ html[data-theme='dark'] {
     --button-color:#496149;
     --spacer-color:#121212;
     --headingbb-color: #ACDBDF;
+    --heading3-color:#ACDBDF;
 }
 
 
@@ -42,7 +44,7 @@ html[data-theme='dark'] {
 #main{
     font-family: Commissioner, sans-serif;
     background: var(--bg);
-    color: var(--heading-color);
+    color: var(--heading3-color);
 }
 #main h1{
     margin-top:25px;
