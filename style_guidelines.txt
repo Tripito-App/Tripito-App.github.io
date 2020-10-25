@@ -11,24 +11,24 @@ For Tripito, our flat colours show our consumers that we are professional. Our c
 These are our colour swatches:
 
 Light Mode:
-Default || Augmented (for button clicks and such)
-- #00887A || #02776c
-- background: #D3E3FC
-- navbar: rgba(0, 0, 0, 0)
-- heading-color: #54575a
-- text-color: black
-- sub-color: #FFCCBC
+- #77A6F7
+- #FFCCBC
+- #00887A
+- #D3E3FC
+- #54575A
+
 
 Dark Mode:
-- background: #121212
-- navbar: #121212
-- heading-color: #ACDBDF
-- text-color: #F0ECE2
-- sub-color: #121212
+- #121212
+- #ACDBCF
+- #F0ECE2
+- #496149
+- #263859
+- #145374
 
 Iconography
 ===========
-Our website will have flat iconography. It will be colourful.
+Our website will have flat iconography and it will be colourful.
 
 Typography
 ==========
