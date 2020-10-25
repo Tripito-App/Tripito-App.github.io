@@ -1,0 +1,12 @@
+#logotings{
+    filter: invert(var(--ic22));
+    -webkit-filter: invert(var(--ic22));
+}
+
+html{
+    --ic22: 0%;
+}
+
+html[data-theme='dark'] {
+    --ic22:100%
+}
