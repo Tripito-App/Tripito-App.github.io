@@ -6,7 +6,8 @@ The overall look and feel is of subtleness and warmth. We want the user to feel 
 Colours
 ========
 
-For Tripito, our flat colours show our consumers that we are professional. Our colours convey power yet in a peaceful manner; they do not outshine the content of the website.
+For Tripito, our flat colours show our consumers that we are professional. Our colours convey power yet in a peaceful manner; they do not outshine the content of the website. In addition, the website will offer a dark mode if the user prefers to browse in a more dim setting.
+
 These are our colour swatches:
 
 Light Mode:
@@ -31,7 +32,7 @@ Our website will have flat iconography. It will be colourful.
 
 Typography
 ==========
-We will be using Commissioner from Google Fonts for the body text and the default font for titles, navigation bar, and footer.
+We will be using Commissioner from Google Fonts. Specifically, it will be Commissioner sans-serif.
 
 Links
 =====
@@ -39,4 +40,4 @@ Links will be underlined and will change to a darker colour when hovered over.
 
 Buttons
 =======
-Buttons will be also be flat and will incorporate the website colours. They will have a green background and white text.
+Buttons will be also be flat and will incorporate the website colours. They will have a green background and white text. They will have a green background and white text. When they are clicked, they will turn to a darker green.

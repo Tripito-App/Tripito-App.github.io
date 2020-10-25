@@ -19,11 +19,12 @@
 }
 .footerw h6
 {
-  color:var(--heading-color);
+  color:var(--headingbb-color);
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
-  letter-spacing:2px
+  letter-spacing:2px;
+  font-family: Commissioner, sans-serif;
 }
 .footerw a
 {
@@ -39,7 +40,8 @@
 }
 .footerw-links li
 {
-  display:block
+  display:block;
+  font-family: Commissioner, sans-serif;
 }
 .footerw-links a
 {
@@ -55,7 +57,8 @@
 }
 .copyright
 {
-  margin:0
+  margin:0;
+  font-family: Commissioner, sans-serif;
 }
 
 

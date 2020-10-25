@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
     --bg:#D3E3FC;
     --navbar:rgba(0, 0, 0, 0);
-    --heading-color:#54575a;
+    --heading-color: black;
     --text-color:black;
     --features-color: #FFCCBC;
     --featureswrapper-color:white;
@@ -63,8 +63,6 @@ html[data-theme='dark'] {
 .nav-link
 {
   color: var(--text-color)!important;
-  font-weight: 600;
-  font-size: 16px;
 }
 
 /*DARK MODE SWITCH*/
@@ -169,20 +167,20 @@ html.transition *:after {
 }
 
 #main-heading {
-  font-family: 'Commissioner', sans-serif;
+  font-family: Commissioner, sans-serif;
   margin:auto;
   margin-top:10%;
-  font-size: 4.8rem;
-  font-weight:bolder;
+  font-size: 4rem;
+  font-weight: 500;
   color:var(--heading-color);
 }
 
 #heading {
   color:var(--heading-color);
   margin:auto;
-  font-family: 'Commissioner', sans-serif;
+  font-family: Commissioner, sans-serif;
   font-size:2.6rem;
-  font-weight:bold;
+  font-weight:500;
 }
 
 #descr {
@@ -212,7 +210,7 @@ html.transition *:after {
   color:var(--heading-color);
   font-family: 'Commissioner', sans-serif;
   font-size:2rem;
-  font-weight:bold;
+  font-weight:400;
   padding-bottom:1%;
 }
 

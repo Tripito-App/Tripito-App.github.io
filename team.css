@@ -3,11 +3,12 @@ html{
     --bgb: white;
     --bg: #D3E3FC;
     --navbar:rgba(0, 0, 0, 0);
-    --heading-color:#54575a;
+    --heading-color: black;
     --text-color:black;
     --main-color: #FFCCBC;
     --button-color:#00887A;
     --cards-color:white;
+    --headingbb-color:black;
 }
 
 html[data-theme='dark'] {
@@ -19,6 +20,7 @@ html[data-theme='dark'] {
     --main-color: #121212;
     --button-color:#496149;
     --cards-color:#69779B;
+    --headingbb-color: #ACDBDF;
 }
 
 
@@ -80,9 +82,8 @@ body {
     cursor: pointer;
     width: 100%;
   }
-
-  .buttonss:hover {
-    background-color: var(--bg);
+  .buttonss:active {
+    background-color: #02776c;
   }
 
   /*DARK MODE SWITCH*/

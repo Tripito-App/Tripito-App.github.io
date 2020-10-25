@@ -15,7 +15,10 @@
 {
     padding: 0 10px;
 }
-
+.nav-link
+{
+    font-family: Commissioner, sans-serif;
+}
 .navbar-nav li a
 {
     float: right;
