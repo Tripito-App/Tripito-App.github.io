@@ -359,6 +359,14 @@ html.transition *:after {
   margin-top:4%;
 }
 
+.tryBtn13:active {
+  background-color: #02776c;
+}
+
+.tryBtn24:active {
+  background-color: #02776c;
+}
+
 .button {
   color: white;
 }
